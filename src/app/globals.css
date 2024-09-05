@@ -2,32 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.back{
+  background-color: #214a84;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.zin{
+  z-index: 9999999 !important;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.wpp{
+  width: auto;
+  height: 75px;
+ 
+}
+.nav{
+  height: auto;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.navt:hover{
+  background-color: #F8B500;
+  color: white;
+}
+
+.logo{
+  width: auto;
+  height: 4rem;
+}
+
+.txt:hover{
+  color: #F8B500;
+}
+
+.ham:hover{
+  background-color: #F8B500;
+  color: white;
+}
+
+.hero {
+  @apply flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto;
+
+  z-index: -1;
+}
+
+.hero__title {
+  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+}
+
+.hero__subtitle {
+  @apply text-[27px] text-black font-bold mt-5;
+}
+
+.hero__sub {
+  @apply text-[18px] text-black mt-5;
+}
+
+.bicon{
+  color: #0000fe;
+  width: 32px;
+  height: 32px;
+  display: inline;
+}
+
+
+.bt{
+
+  color: white !important; 
+  background-color: #0000fe !important;
+
+
+}
+
+.bt:hover{
+  background-color: #05058d !important;
 }
