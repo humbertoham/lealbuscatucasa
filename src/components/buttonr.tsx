@@ -6,7 +6,7 @@ export default function ButtonR() {
           <div className="fixed zin bottom-4 right-4 box">
             <ul>
               <li>
-    <a href="https://api.whatsapp.com/send/?phone=%2B526241232598" target="_blank">
+    <a href="https://api.whatsapp.com/send/?phone=%2B526241177448" target="_blank">
     <img className="wpp" src="./images/wpp.png"/>
   </a>
   </li></ul>

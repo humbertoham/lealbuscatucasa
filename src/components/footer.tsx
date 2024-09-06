@@ -14,7 +14,7 @@ export default function Footer(){
           <span className="text-xs uppercase tracking-wide text-gray-500"> Contáctanos </span>
 
           <p className="block text-2xl font-medium text-gray-900 sm:text-3xl">
-          +52 624 123 2598
+          +52 624 117 7448
           </p>
         </p>
 

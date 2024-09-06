@@ -30,7 +30,7 @@ export interface House {
       ],
       price: "298,000 DLLS",
       images: [
-        "/images/house1/image1.jpeg",
+        "/images/house1/image1.jpeg","/images/wpp.png",
         "/images/house1/image2.jpeg",
         "/images/house1/image3.jpeg",
         "/images/house1/image4.jpeg",
@@ -47,7 +47,7 @@ export interface House {
           "Crédito hipotecario."
         ],
         images: [
-          "/images/itower/image1.jpeg",
+          "/images/itower/image1.jpeg","/images/wpp.png",
           "/images/itower/image2.jpeg",
           "/images/itower/image3.jpeg",
           "/images/itower/image4.jpeg",
@@ -61,7 +61,7 @@ export interface House {
         price: "Consultar",
         features: [],
         images: [
-          "/images/cerritos/image1.jpeg",
+          "/images/cerritos/image1.jpeg","/images/wpp.png",
           "/images/cerritos/image2.jpeg",
           "/images/cerritos/image3.jpeg"
           ,
@@ -90,7 +90,7 @@ export interface House {
         ],
         price: "2,300,000 MX",
         images: [
-          "/images/nuevo-hogar/image1.jpeg",
+          "/images/nuevo-hogar/image1.jpeg","/images/wpp.png",
           "/images/nuevo-hogar/image2.jpeg",
           "/images/nuevo-hogar/image3.jpeg",
           "/images/nuevo-hogar/image4.jpeg",
@@ -112,7 +112,7 @@ export interface House {
         ],
         price: "8,600,000 MX",
         images: [
-          "/images/mistiq/image1.jpeg",
+          "/images/mistiq/image1.jpeg","/images/wpp.png",
           "/images/mistiq/image2.jpeg",
           "/images/mistiq/image3.jpeg"
           ,
@@ -137,7 +137,7 @@ export interface House {
         ],
         price: "3,250,000 MN",
         images: [
-          "/images/brisas-del-pacifico/image1.jpeg",
+          "/images/brisas-del-pacifico/image1.jpeg","/images/wpp.png",
           "/images/brisas-del-pacifico/image2.jpeg",
           "/images/brisas-del-pacifico/image3.jpeg",
           "/images/brisas-del-pacifico/image4.jpeg",
@@ -159,7 +159,7 @@ export interface House {
         ],
         price: "2,800,000 MXN",
         images: [
-          "/images/cl2/image1.jpeg",
+          "/images/cl2/image1.jpeg","/images/wpp.png",
           "/images/cl2/image2.jpeg",
           "/images/cl2/image3.jpeg",
           "/images/cl2/image4.jpeg",
@@ -179,7 +179,7 @@ export interface House {
         ],
         price: "3,590,000 MXN",
         images: [
-          "/images/i-loft-cabo/image1.jpeg",
+          "/images/i-loft-cabo/image1.jpeg","/images/wpp.png",
           "/images/i-loft-cabo/image2.jpeg",
           "/images/i-loft-cabo/image3.jpeg",
           "/images/i-loft-cabo/image4.jpeg",
@@ -197,7 +197,7 @@ export interface House {
         ],
         price: "2,900,000 MXN",
         images: [
-          "/images/los-cangrejos/image1.jpeg",
+          "/images/los-cangrejos/image1.jpeg","/images/wpp.png",
           "/images/los-cangrejos/image2.jpeg",
           "/images/los-cangrejos/image3.jpeg",
           "/images/los-cangrejos/image4.jpeg",
@@ -215,7 +215,7 @@ export interface House {
         ],
         price: "418,000 USD",
         images: [
-          "/images/luxury-condos/image1.jpeg",
+          "/images/luxury-condos/image1.jpeg","/images/wpp.png",
           "/images/luxury-condos/image2.jpeg",
           "/images/luxury-condos/image3.jpeg",
           "/images/luxury-condos/image4.jpeg",

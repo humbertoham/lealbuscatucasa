@@ -6,7 +6,7 @@ export default function Contact() {
   return (
 <>  <div>
 <div className=" min-h-96 rounded-3xl bg-zinc-100 mul max-w-6xl mb-8 mx-auto grid grid-cols-1 md:grid-cols-2 ">
-    <div className=" md:ml-16 max-w-70 md:my-20 mb-0 mt-16 mx-auto  md:px-0 md:py-0 py-10 flex flex-col">
+    <div className=" md:ml-16 max-w-70 md:my-20 mb-0 mt-4 mx-auto  md:px-0 md:py-0 py-10 flex flex-col">
         <div className='md:px-0'>
     <p className='text-blue-600  text-center md:text-left text-sm font-bold pb-5' >RESPUESTA INMEDIATA</p>
 
@@ -17,11 +17,11 @@ export default function Contact() {
       <h2 className="text-gray-800 mt-6 font-bold  md:text-left text-center md:text-3xl text-xl">btccabo@gmail.com</h2>
       <h2 className="text-gray-600 mt-6 font-bold  md:text-left text-center md:text-lg text-md">
       <PhoneIcon className='bicon'/>¡Llamanos!</h2>
-<h2 className="text-gray-800 mt-6 font-bold md:text-left text-center md:text-3xl text-md">  +52 624 123 2598</h2>
+<h2 className="text-gray-800 mt-6 font-bold md:text-left text-center md:text-3xl text-md">  +52 624 117 7448</h2>
 </div>
     </div>
 
-    <div className=' rounded-3xl bg-white my-20  mx-4 shadow-lg  md:mx-auto md:pt-12 pt-6 pb-12 px-8 flex flex-col'>
+    <div className=' rounded-3xl bg-white my-0 md:my-20  mx-4 shadow-lg  md:mx-auto md:pt-12 pt-6 pb-12 px-8 flex flex-col'>
 
     <h1 className='text-center font-semibold text-black text-4xl'> Solicita una cotización</h1>
     <input
@@ -54,7 +54,7 @@ export default function Contact() {
                <textarea id="message" rows={4} className="flex-auto block  mx-auto mt-3 min-w-full rounded-xl border-0 bg-white/5 px-5 py-2 text-black shadow-sm ring-1 ring-inset ring-blue first:focus:ring-blue focus:ring-inset  sm:text-sm sm:leading-6" placeholder="Mensaje:"></textarea>
               <button
                 type="submit"
-                className=" rounded-xl mx-auto block min-w-full  mt-3 bt px-3.5 py-2.5 text-lg font-bold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-"
+                className=" rounded-xl mx-auto block min-w-full  mt-3 bg-blue-500 hover:bg-blue-600 px-3.5 py-2.5 text-lg font-bold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-"
               >
                 Enviar
               </button>
