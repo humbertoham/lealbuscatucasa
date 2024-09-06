@@ -18,7 +18,7 @@ const ServicesSection = () => {
         {/* Servicios */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Servicio 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
+          <div className="bg-white p-6 rounded-3xl shadow-lg flex flex-col items-center text-center">
             <div className="relative w-full h-48 mb-4">
               <Image
                 src="/images/luxury-condos/image4.jpeg" // Cambia la ruta de la imagen según corresponda
@@ -38,7 +38,7 @@ const ServicesSection = () => {
           </div>
 
           {/* Servicio 2 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
+          <div className="bg-white p-6 rounded-3xl shadow-lg flex flex-col items-center text-center">
             <div className="relative w-full h-48 mb-4">
               <Image
                 src="/images/i-loft-cabo/image3.jpeg" // Cambia la ruta de la imagen según corresponda
@@ -58,7 +58,7 @@ const ServicesSection = () => {
           </div>
 
           {/* Servicio 3 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
+          <div className="bg-white p-6 rounded-4xl shadow-lg flex flex-col items-center text-center">
             <div className="relative w-full h-48 mb-4">
               <Image
                 src="/images/itower/image1.jpeg" // Cambia la ruta de la imagen según corresponda
@@ -86,7 +86,7 @@ const ServicesSection = () => {
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Contáctanos hoy mismo para discutir tus necesidades y descubrir cómo podemos ayudarte a alcanzar tus metas inmobiliarias. Nuestro equipo está listo para ofrecerte el mejor servicio posible.
           </p>
-          <a href="https://api.whatsapp.com/send/?phone=%2B526241177448" className="inline-block bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 ease-in-out">
+          <a href="https://api.whatsapp.com/send/?phone=%2B526241177448" className="inline-block bg-blue-500 text-white font-semibold py-3 px-6 rounded-3xl shadow-lg hover:bg-blue-600 transition duration-300 ease-in-out">
             Contáctanos
           </a>
         </div>

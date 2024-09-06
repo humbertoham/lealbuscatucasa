@@ -83,7 +83,7 @@ export default function Footer(){
             </li>
            
             <li>
-              <a href="/trasladoslocales" className="text-gray-700 transition hover:opacity-75"> Propiedades</a>
+              <a href="/propiedades" className="text-gray-700 transition hover:opacity-75"> Propiedades</a>
             </li>
 
 
