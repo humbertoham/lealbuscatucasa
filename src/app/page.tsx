@@ -1,3 +1,4 @@
+import AgentCard from "@/components/AgentCard";
 import ButtonR from "@/components/buttonr";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/herot";
@@ -15,9 +16,10 @@ export default function Home() {
   <>
     <Navbar/>
     <HeroSection/>
+    <AgentCard/>
     <ServicesSection/>
     <SearchPropertiesSection/>
-    <Testimonials/>
+    
   <Map/>
 
     <Footer/>
